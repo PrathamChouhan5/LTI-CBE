@@ -1,0 +1,9 @@
+Download miniconda and add it to your system path
+conda create -n ai_env python=3.10 -y
+conda activate ai-env
+
+pip install tensorflow
+pip install keras
+conda install pytorch torchvision cpuonly -c pytorch -y
+ctrl+shift+p to select your interpreter-->ai_env
+python -m pip install --upgrade pip
